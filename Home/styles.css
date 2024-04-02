@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav__logo {
+    width: 100px;
+}
+
+.nav__avatar {
+    width: 30px;
+    height: 30px;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #000;
+}
+
+.nav__left {
+    display: flex;
+    align-items: center;
+}
+
+.nav__menu {
+    display: flex;
+    margin-left: 20px;
+}
+
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav__link:hover {
+    color: gray;
+}
+
+.nav__right {
+    display: flex;
+    align-items: center;
+}
+
+.nav__right i {
+    margin-right: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+.nav__search-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+    margin-top: 2px;
+}
+
+.nav__search-text {
+    color: white; 
+    margin-right: 10px; 
+}
+
+.nav__avatar {
+    margin-left: 10px;
+    margin-right: 10px; 
+    cursor: pointer;
+}
+
+
+.row__poster {
+    width: 100%;
+    object-fit: contain;
+    max-height: 100px;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+
+.row__posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+.row__poster:hover {
+    transform: scale(1.08);
+}
+
+.row__posters::-webkit-scrollbar {
+    display: none;
+}
+
+.row__posterLarge {
+    max-height: 250px;
+}
+.row__posterLarge:hover {
+    transform: scale(1.09);
+}
+
+.row {
+    color: white;
+    background-color: #111;
+}
+
+.image-link {
+    display: inline-block;
+  }
+  
+  .image-link img {
+    width: 190px;
+    height: auto;
+  }
+  
+
+ .banner {
+    width: 100%; 
+    height: 90vh; 
+}
+
+.poster {
+    width: 100%; 
+} 
+
+.topseries {
+    color: white;
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.top {
+    color: white;
+    font-size: 250px;
+    display: inline-block;
+    width: 100px;
+    height: 200px;
+    margin: 0;
+    position: relative;
+    left: 17px;
+    bottom: 65px;
+}
+
+.serie img {
+    width: 200px;
+    height: 300px;
+    border-radius: 30px;
+    cursor: pointer;
+    position: relative;
+}
+
+.serienome {
+    color: white;
+    padding-left: 109px;
+    margin: 20px auto 9px;
+}
+
+.detalhes {
+    color: white;
+    padding-left: 109px;
+}
+
+.detalhes img {
+    color: white;
+    height: 15px;
+    width: 15px;
+}
+.subtitle {
+    position: absolute;
+    bottom: 80px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.info {
+    margin-bottom: 10px;
+}
+
+.info span {
+    margin-right: 20px;
+    color: #fff; 
+}
+
+.info span i {
+    margin-right: 5px; 
+}
+
+p {
+    color: #fff; 
+}
+
+.button {
+    display: flex;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #ffff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn i {
+    margin-right: 10px; 
+}
+
+footer .container{
+    display: flex;
+    background-color: rgb(11, 10, 10);
+    color: white;
+    padding: 25px;
+    font-size: 14px;
+}
+
+footer .container ul{
+    width: 25%;
+    
+}
+
+.esquerda{
+    margin-left: 100px;
+}
+
+
+footer .container .redes-sociais i{
+    margin-right: 10px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+footer .container li{
+    margin: 10px 0;
+    list-style: none;
+    margin-top: 20px;
+}
+
+footer .container a{
+    color: rgb(154, 151, 151);
+    text-decoration: none;
+    
+}
+
+button{
+    background: none;
+    border-color: rgb(154, 151, 151);
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.nota{
+    margin-top: 20px;
+    color: rgb(154, 151, 151);
+    font-size: 10px;
+
+}
+
+
+ 
+
+

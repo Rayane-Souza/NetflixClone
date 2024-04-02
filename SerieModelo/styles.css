@@ -1,0 +1,528 @@
+* {
+  padding: 0;
+  border: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+}
+
+body {
+  width: 98vw;
+  height: 98vh;
+  background-color: #000;
+  color: white;
+  overflow-y: hidden;
+}
+.nav__logo {
+  width: 100px;
+}
+
+.nav__avatar {
+  width: 30px;
+  height: 30px;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #000;
+}
+
+.nav__left {
+  display: flex;
+  align-items: center;
+}
+
+.nav__menu {
+  display: flex;
+  margin-left: 20px;
+}
+
+.nav__link {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nav__link:hover {
+  color: gray;
+}
+
+.nav__right {
+  display: flex;
+  align-items: center;
+}
+
+.nav__right i {
+  margin-right: 10px;
+  font-size: 18px;
+  color: white;
+}
+
+.nav__search-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+  margin-top: 2px;
+}
+
+.nav__search-text {
+  color: white;
+  margin-right: 10px;
+}
+
+.nav__avatar {
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.container {
+  width: 76%;
+  height: 60%;
+  display: grid;
+  grid-template-columns: 27% 75%;
+  color: white;
+  margin-top: 50px;
+}
+
+.imagem1 {
+  width: 100%;
+  height: 100%;
+  background-image: url(../Home/img/house\ of\ the\ dragons_resized.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.imagem2 {
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/Brooklyn_Nine-Nine-4.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .imagem3 {
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/theumbrella.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+   .imagem4 {
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/never-have-i-ever\ \(1\).jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .imagem5 {
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/friends.capa.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .imagem6 {
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/peaky.capa.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .imagem7 {
+    width: 100%;
+    height: 103%;
+    background-image: url(./img/images.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;  
+  }
+  .imagem8 {
+    width: 100%;
+    height: 103%;
+    background-image: url(./img/umaadvogada.extraordinaria.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;  
+  }
+  .imagem9 {
+    width: 100%;
+    height: 103%;
+    background-image: url(./img/capa.pretendente.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;  
+  }
+  .imagem10 {
+    width: 100%;
+    height: 103%;
+    background-image: url(./img/capa.hometown.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;  
+  }
+  .imagem11 {
+    width: 100%;
+    height: 103%;
+    background-image: url(./img/Love_Alarm_poster.capa.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;  
+  }
+  .imagem12 {
+    width: 100%;
+    height: 103%;
+    background-image: url(./img/romancecapa.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;  
+  }
+  .imagem13 {
+    width: 100%;
+    height: 103%;
+    background-image: url(./img/capa.amanha.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;  
+  }
+  .imagem14 {
+    width: 100%;
+    height: 103%;
+    background-image: url(./img/capadesgraçaaoseudispor.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;  
+  }
+  .imagem15 {
+    width: 100%;
+    height: 103%;
+    background-image: url(./img/capa.theglory.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;  
+  }
+  .imagem16 {
+    width: 100%;
+    height: 103%;
+    background-image: url(../Home/img/strange\ things.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;  
+  }
+.texto {
+  width: 100%;
+  height: 49%;
+}
+
+.texto img {
+  width: 80%;
+  height: 57%;
+  display: flex;
+  z-index: 20;
+  opacity: 0.2;
+  margin-top: -28.3%;
+  position: fixed;
+}
+
+.texto1 img  {
+    width: 80%;
+    height: 50.9%;
+    display: flex;
+    z-index: 20;
+    opacity: 0.2;
+    margin-top: -25.3%;
+    position: fixed;
+  }
+  
+  .texto4 img  {
+    width: 80%;
+    height: 42.1%;
+    display: flex;
+    z-index: 20;
+    opacity: 0.2;
+    margin-top: -21%;
+    position: fixed;
+  }
+  .texto3 img  {
+    width: 80%;
+    height: 51%;
+    display: flex;
+    z-index: 20;
+    opacity: 0.2;
+    margin-top: -25.4%;
+    position: fixed;
+  }
+  .texto6 img  {
+    width: 80%;
+    height: 43.3%;
+    display: flex;
+    z-index: 20;
+    opacity: 0.2;
+    margin-top: -21.6%;
+    position: fixed;
+  }
+   .texto10 img  {
+    width: 80%;
+    height: 51%;
+    display: flex;
+    z-index: 20;
+    opacity: 0.2;
+    margin-top: -25.5%;
+    position: fixed;
+  }
+  .texto22 img  {
+    width: 80%;
+    height: 47%;
+    display: flex;
+    z-index: 20;
+    opacity: 0.2;
+    margin-top: -23%;
+    position: fixed;
+  }
+  .texto7 img  {
+    width: 80%;
+    height: 55.5%;
+    display: flex;
+    z-index: 20;
+    opacity: 0.2;
+    margin-top: -26.9%;
+    position: fixed;
+  }
+  .texto14 img  {
+    width: 80%;
+    height: 44%;
+    display: flex;
+    z-index: 20;
+    opacity: 0.2;
+    margin-top: -22%;
+    position: fixed;
+  }
+  .texto18 img  {
+    width: 80%;
+    height: 49%;
+    display: flex;
+    z-index: 20;
+    opacity: 0.2;
+    margin-top: -24.5%;
+    position: fixed;
+  }
+  .texto29 img  {
+    width: 80%;
+    height: 49.6%;
+    display: flex;
+    z-index: 20;
+    opacity: 0.2;
+    margin-top: -24%;
+    position: fixed;
+  }
+   .texto27 img  {
+    width: 80%;
+    height: 52.4%;
+    display: flex;
+    z-index: 20;
+    opacity: 0.2;
+    margin-top: -25.4%;
+    position: fixed;
+  }
+   .texto19 img  {
+    width: 80%;
+    height: 49.8%;
+    display: flex;
+    z-index: 20;
+    opacity: 0.2;
+    margin-top: -24%;
+    position: fixed;
+  }
+  .texto23 img  {
+    width: 83%;
+    height: 47%;
+    display: flex;
+    z-index: 20;
+    opacity: 0.2;
+    margin-top: -22.6%;
+    position: fixed;
+  }
+  .texto9 img  {
+    width: 83%;
+    height: 52.8%;
+    display: flex;
+    z-index: 20;
+    opacity: 0.2;
+    margin-top: -25.6%;
+    position: fixed;
+  }
+
+
+#titulo1 {
+  font-size: 40px;
+}
+
+.texto span {
+  padding-top: -30%;
+  padding-right: 2%;
+}
+
+#s1 {
+  padding-left: 4%;
+  padding-right: 2%;
+}
+
+#s1 i {
+  padding-right: 0.5%;
+}
+
+#s2 i {
+  margin-right: 0.5%;
+}
+
+#s5 {
+  background: rgb(18, 18, 65);
+  padding: 7px;
+  margin-left: 4%;
+  border-radius: 15px;
+}
+
+#s6 {
+  margin-left: 4%;
+  margin-right: 4%;
+  background: rgb(18, 18, 65);
+  padding: 9px;
+  border-radius: 35px;
+  cursor: pointer;
+}
+
+#s7 {
+  background: rgb(18, 18, 65);
+  padding: 9px;
+  border-radius: 35px;
+  cursor: pointer;
+}
+
+.texto p {
+  padding-right: 25%;
+  margin-left: 4%;
+  font-size: 16px;
+}
+.texto3 p {
+  padding-right: 25%;
+  margin-left: 4%;
+  font-size: 16px;
+}
+.texto6 p {
+  padding-right: 25%;
+  margin-left: 4%;
+  font-size: 16px;
+}
+.texto10 p {
+  padding-right: 25%;
+  margin-left: 4%;
+  font-size: 16px;
+}
+.texto22 p {
+  padding-right: 25%;
+  margin-left: 4%;
+  font-size: 16px;
+}
+.texto7 p {
+  padding-right: 25%;
+  margin-left: 4%;
+  font-size: 16px;
+}
+.texto14 p {
+  padding-right: 25%;
+  margin-left: 4%;
+  font-size: 16px;
+}
+.texto18 p {
+  padding-right: 25%;
+  margin-left: 4%;
+  font-size: 16px;
+}
+.texto29 p {
+  padding-right: 25%;
+  margin-left: 4%;
+  font-size: 16px;
+}
+.texto27 p {
+  padding-right: 25%;
+  margin-left: 4%;
+  font-size: 16px;
+}
+.texto19 p {
+  padding-right: 25%;
+  margin-left: 4%;
+  font-size: 16px;
+}
+.texto23 p {
+  padding-right: 25%;
+  margin-left: 4%;
+  font-size: 16px;
+}
+.texto9 p {
+  padding-right: 25%;
+  margin-left: 4%;
+  font-size: 16px;
+}
+#p2 {
+  margin-top: -1%;
+}
+
+
+.texto button {
+  margin-left: 5%;
+  padding: 0.5%;
+  width: 10%;
+  font-size: 20px;
+  background: rgb(0, 0, 0, 0.1);
+  color: white;
+  cursor: pointer;
+}
+
+.texto button i {
+  padding-left: 4%;
+}
+
+#titulo2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 50px; 
+}
+
+.container2 {
+margin-bottom: -20px;
+}
+
+#p5 {
+  color: red;
+  font-size: 14px;
+  font-weight: lighter;
+  margin-top: -15px;
+}
+
+#p41 {
+  text-align: right;
+  width: 470%;
+  color: gray;
+}
+
+#textoarea {
+  font-size: 16px;
+  background: rgb(38, 38, 39);
+  color: #fff;
+}
+
+#b2 {
+  font-size: 16px;
+  background: rgb(38, 38, 39);
+  color: #fff;
+  border: none;
+  padding: 7px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#p4 {
+    margin-top: -3.8%;
+    margin-left: 60%;
+    font-size: 20px;
+    color: gray;
+    align-items: center;
+}

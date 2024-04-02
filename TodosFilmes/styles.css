@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav__logo {
+  width: 100px;
+}
+
+.nav__avatar {
+  width: 30px;
+  height: 30px;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: transparent;
+  z-index: 1;
+}
+
+.nav__left {
+  display: flex;
+  align-items: center;
+}
+
+.nav__menu {
+  display: flex;
+  margin-left: 20px;
+}
+
+.nav__link {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nav__link:hover {
+  color: gray;
+}
+
+.nav__right {
+  display: flex;
+  align-items: center;
+}
+
+.nav__right i {
+  margin-right: 10px;
+  font-size: 18px;
+  color: white;
+}
+
+.nav__search-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+  margin-right: 10px;
+}
+
+.nav__search-text {
+  color: white;
+  margin-right: 10px;
+}
+
+.nav__avatar {
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.button-icon .btn-secondary:hover {
+    background-color: #6c757d; 
+}
+
+.netflix-home-video video {
+  width: 100%;
+  height: 2%;
+}
+
+.netflix-home-video .content {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  display: flex;
+}
+
+.netflix-home-video .content .left {
+  margin-left: 80px;
+}
+.netflix-home-video .content .left img {
+  margin-top: 190px;
+}
+.netflix-home-video .content .right {
+  width: 50%;
+}
+
+.slider {
+  position: absolute;
+  top: 600px;
+}
+
+.row__posters {
+  display: flex;
+  overflow-x: scroll;
+  padding: 20px;
+  background-color: #111;
+}
+
+.row__poster {
+  margin-right: 20px;
+}
+
+.row__poster:hover {
+  transform: scale(1.08);
+}
+
+.row__posters::-webkit-scrollbar {
+  display: none;
+}
+
+.row {
+  color: white;
+  background-color: #111;
+}
+
+.small-image {
+  width: 200px;
+}
+
+.serie {
+  text-align: center;
+}
+
+.film__title {
+  font-size: 17px;
+}
+
+footer {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(11, 10, 10);
+  font-size: 14px;
+  padding: 20px;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+footer .container ul {
+  width: 25%;
+}
+
+.esquerda {
+  margin-left: 100px;
+}
+
+footer .container .redes-sociais i {
+  margin-right: 10px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+footer .container li {
+  margin: 10px 0;
+  list-style: none;
+  margin-top: 20px;
+}
+
+footer .container a {
+  color: rgb(154, 151, 151);
+  text-decoration: none;
+}
+
+button {
+  background: none;
+  border-color: rgb(154, 151, 151);
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.nota {
+  margin-top: 20px;
+  color: rgb(154, 151, 151);
+  font-size: 10px;
+}
